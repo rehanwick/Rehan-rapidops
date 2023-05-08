@@ -1,0 +1,23 @@
+distributed database - they are the database that they are stroedin the muslitible server called node/instance 
+
+Advantages of distributed database - 
+    1. Resilience and Reduse-Risk :- multiple replicas are stroed on the diffrent instance if one goes down due
+        to ( Power-off , error , mentanace  ) 
+
+    2. Easier to scale : - non DD is expensive to scale need more computing power to solve all the data base 
+
+    3. geographically distributing the database can reduce latency
+
+
+Distributed database configurations:
+     1. active-passive :- In this all the read write operation is taking place on the single node then copyed to 
+                         the other node , data is replicated asynchronusly 
+                         Draw-back :- - All the computation is done on the single node 
+                                      - Problem in Copying data to passive node
+                                      - Online off-line Problem
+     
+     2. active-active :- In the active-active the traffic is routed to all of them 
+                         Draw-back :- -difficult to setup 
+                                      -DIffrent value of the same if anyone goes off
+                                        
+     3. multi-active :- 

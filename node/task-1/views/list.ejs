@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table {
+        border: 1px solid black ;
+    }
+    tr {
+        border: 2px solid black;
+    }
+</style>
+<body>
+  <div style="display: flex;">
+    <h1>Table</h1>
+      <table>
+          <% for(var i=0; i<data.length; i++) {%>
+              <tr>
+                <td>
+                  <%= data[i].firstName %>
+                </td>
+                <td>
+                  <%= data[i].lastName %>
+                </td>
+                <td>
+                  <%= data[i].id %> 
+                </td>
+              </tr>
+           <% } %>
+      </table>
+      <form action="/download" method="post">
+          <button onclick="download()" >Download</button>
+      </form>
+      <h1>
+          SQL Data
+      </h1>
+      <table>
+          <% for(var i=0; i<dataDb.length; i++) {%>
+              <tr>
+                <td>
+                  <%= dataDb[i].name %>
+                </td>
+                <td>
+                  <%= dataDb[i].dob %>
+                </td>
+                <td>
+                  <button onclick="del('<%= dataDb[i].id %>')">Delete</button>
+                </td>
+              </tr>
+           <% } %>
+      </table>
+  </div>
+    <script>
+      function del(id) {
+        fetch(`http://localhost:3000/delete/${id}` , {method:'DELETE'})
+        .then(alert('USER dELETED'))
+        .then(location.reload()) ;
+      }
+    </script>
+</body>
+</html>

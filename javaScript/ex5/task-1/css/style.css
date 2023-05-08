@@ -1,0 +1,46 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 1.5em;
+    color: aliceblue;
+}
+
+.nav span {
+    margin: 5px;
+}
+
+body {
+    margin: 0;
+    background-color: hsl(0, 2%, 73%) ;
+    height: 100px;
+}
+
+.navDiv {
+    background-color: #4B98E9 ; 
+    padding: 6px;
+}
+
+.body { 
+    margin: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: azure;
+}
+
+.dasbord {
+    color: aliceblue;
+    padding: 5px;
+    background-color: #168BF2 ;
+    border-radius: 5px;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+}
+
+.cards {
+    margin-top: 10px;
+}

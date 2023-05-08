@@ -1,0 +1,40 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.text {
+    font-size: 2em;
+}
+.contaner {
+    margin: 20%;
+    margin-top: 10%;
+    background-color: rgba(185, 250, 250, 0.4);
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.stopwatch {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center ;
+}
+
+.stopwatch-text {
+    margin: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin: 1em;
+    
+}
+
+.dnt {
+    background-color: rgba(90, 88, 88, 0.436);
+    border-radius: 5px;
+    padding: 5px;
+}

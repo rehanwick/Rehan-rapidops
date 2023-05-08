@@ -1,0 +1,12 @@
+
+table { 
+    border: 1px solid black;
+}
+
+.div {
+    display: flex;
+    justify-items: center;
+    justify-items: center;
+    margin: 400px;
+    margin-top: 50px;
+}

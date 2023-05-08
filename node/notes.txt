@@ -1,0 +1,26 @@
+camale casing 
+
+naming conventional 
+
+VAlidation of the req is must USE JOi
+
+INDEXESE IN MIGRATION 
+
+USE ONE FORMATE CAMALCASE/UNDERSCORE 
+
+
+
+//doubh 
+  1 when the user is created and then the folder is made in the same folder 
+    im using the same function if the sql server goes down 
+    in the folder making then the user is already created wht should i have to do 
+
+   2 in some place the res is not comming for ex in updateFolder route 
+
+  3 res.end krdiya phir bhi function run hota h bc ; 
+
+
+
+    crone (full)
+    movemnt (time convertion , care time-zone , epoch =  unicstimespan ,  ) 
+    loadash (normal for , map , filters , then extra funtion , interxection array , union , unique-value , string funtions) ; 

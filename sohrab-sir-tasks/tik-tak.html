@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #board {
+        margin-top: 100px;
+    }
+    .square {
+        border: 2px solid black;
+        font-size: 4em;
+        background-color: aqua;
+        height: 100px;
+        width: 100px;
+        justify-content: center;
+        justify-items: center;
+
+    }
+</style>
+<body>
+    <div id="board">
+        <div style="display: flex; justify-content: center;">
+            <div class="square"></div> <div class="square"></div> <div class="square"></div>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <div class="square"></div> <div class="square"></div> <div class="square"></div>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <div class="square"></div> <div class="square"></div> <div class="square"></div>
+        </div>
+    </div>
+<script>
+    const squares = document.querySelectorAll('.square');
+        let currentPlayer = 'X';
+
+        for (const square of squares) {
+            square.addEventListener('click', handleClick);
+        }
+
+        function handleClick(event) {
+            event.target.textContent = currentPlayer;
+            switchTurns();
+        }
+
+        function switchTurns() {
+            currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+        }
+</script>
+</body>
+</html>

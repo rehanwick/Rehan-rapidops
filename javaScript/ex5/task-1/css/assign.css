@@ -1,0 +1,18 @@
+.container {
+    margin: 40px;
+
+}
+
+span {
+    margin: 10px;
+}
+
+.course {
+    margin: 3px;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 500px; */
+    margin-right: 650px;
+}

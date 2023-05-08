@@ -1,0 +1,19 @@
+
+.main { 
+    display: flex;
+    justify-items:  center ;
+}
+
+body {
+    margin: 200px;
+    margin-top: 50px;
+    background-color: rgba(233, 239, 239, 0.547);
+}
+
+.top-bar > *  {
+    margin: 10px ;
+}
+
+.main > span {
+    width: 50px;
+}

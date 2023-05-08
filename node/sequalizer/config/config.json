@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Hurairah",
+    "database": "email_client",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}

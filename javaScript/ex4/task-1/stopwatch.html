@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop watch</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="contaner" >
+        <div class="top">
+            <div class="text dnt" id="time">
+                Loding...  
+            </div>
+            <div class="text dnt" id="date">
+                Loding...
+            </div>
+        </div>
+        <div class="stopwatch">
+            <div class="text stopwatch-text ">Stopwatch</div>
+            <div class="text stopwatch-text " id="timer">000.0.000</div>
+        </div>
+        <div class="buttons">
+            <button class="btn btn-success"  id="startbtn" onclick="start()">Start</button>
+            <button class="btn btn-danger" id="stopbtn" disabled ="true" onclick="stop()">Stop</button>
+            <button class="btn btn-warning" id="resumebtn" disabled ="true" onclick="resume()">Resume</button>
+            <button class="btn btn-warning" id="resetbtn" disabled ="true" onclick="reset()" >Reset</button>
+        </div>
+    </div>
+</body>
+<script async src="./script.js" > </script>
+</html>

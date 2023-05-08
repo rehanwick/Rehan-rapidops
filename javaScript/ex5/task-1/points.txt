@@ -1,0 +1,7 @@
+(solved ) Registeration issue 
+( Solved )form validation 
+(solved) dashboard , if no course is assign/course is empty 
+( solved ) alert messages 
+( solved ) redenden code 
+vairable name . funtion  
+( solved ) routing should be correct (ritesh)  (user left)

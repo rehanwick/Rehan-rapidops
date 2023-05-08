@@ -1,0 +1,142 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.utter-nav {
+    border-top: 5px solid #58B1BB;
+    border-bottom: 1px solid rgba(58, 58, 58, 0.699);
+    position: sticky;
+    top: 0%;
+    background-color: white;
+}
+.logo {
+    height: 32m;
+    width: 6em;
+}
+
+.nav-right {
+    margin-top: 25px;
+}
+
+.nav-right > * {
+    text-decoration-line: none;
+    color :black ; 
+    margin : 4px;
+    font-weight: bold;
+}
+
+.home-pic {
+  width: 100%;
+  height: 600px;
+}
+
+.home {
+    display: flex;
+    padding: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-bottom: 1px solid rgba(58, 58, 58, 0.288);
+}
+
+.bottom-list { 
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    
+}
+
+.body {
+    margin: 10em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.bottom-img {
+
+        height: 280px;
+        width  :357px ; 
+    
+}
+
+.contaner { 
+    width: 357px ;
+    margin: 2em;
+}
+
+body {
+    margin:  0 ;
+}
+
+.btn {
+    padding: 5px;
+    color: azure;
+    font-weight: bold;
+    background-color: #58B1BB;
+    border-radius: 5px;
+    text-decoration-line: none;
+    border: 1px solid rgb(110, 109, 109);
+}
+
+.qoutes { 
+    justify-content: center;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+    font: italic ;
+    color: rgb(114, 108, 108);
+}
+
+.down-img {
+    height: 150px;
+    width: 150px;
+}
+
+.contaner-2 {
+    display: flex;
+    margin: 1em;
+    justify-content: space-between;
+}
+
+.contaner-2 > * {
+    padding: 3px;
+}
+.card-h {
+    padding: 0;
+}
+
+.card-p {
+    margin: 0 ;
+    float: right;
+}
+
+.down-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.card-h {
+    float: left;
+}
+
+footer { 
+    background-color: #242527;
+    color: azure;
+}
+
+.flex-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    margin-left: 11em;
+    margin-right: 11em;
+}
+
